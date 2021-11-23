@@ -1,0 +1,85 @@
+@media (max-width: 10px) {
+    *{
+        color: blue;
+    }
+}
+
+body{
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: Calibri, serif;
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+}
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+    padding: 1.25rem 1.5rem;
+}
+a{
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 3.85em;
+    width: 100%;
+    background-color: #FF3333;
+}
+h1{
+    margin: 0;
+    font-size: 7vh;
+}
+footer{
+    height: 100px;
+    background: blue;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.85rem;
+    height: 100vh;
+    padding: 0;
+    background: rgb(144,3,3);
+    background: linear-gradient(330deg, rgba(144,3,3,1) 0%, rgba(105,4,4,1) 17%, rgba(0,0,0,1) 100%);
+}
+#welcome-section p{
+    margin: 0;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 3vh;
+
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.project-container{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 50% 50%;
+}
+.project{
+    padding: 2rem;
+    border: 2px solid;
+    background: grey;
+}
+
